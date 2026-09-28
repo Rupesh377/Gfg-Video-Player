@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "GFG Auto Next",
+  "version": "1.0",
+  "description": "Automatically plays the next video in a GFG playlist.",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.geeksforgeeks.org/*"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ]
+}
